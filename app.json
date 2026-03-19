@@ -17,7 +17,8 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.mediscan.app",
       "infoPlist": {
-        "NSCameraUsageDescription": "MediScan uses your camera to scan medicine packaging and identify medications."
+        "NSCameraUsageDescription": "MediScan uses your camera to scan medicine packaging and identify medications.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
