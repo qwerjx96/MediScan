@@ -33,7 +33,8 @@
       "Bash(eas init:*)",
       "Bash(eas build:*)",
       "Bash(eas build:view d384b71d-0459-4228-a8ef-44b5663a548b)",
-      "Bash(pip install:*)"
+      "Bash(pip install:*)",
+      "Bash(node -e \"const pkg = require\\(''./node_modules/expo-router/package.json''\\); console.log\\(JSON.stringify\\(pkg.peerDependencies, null, 2\\)\\)\")"
     ]
   }
 }
