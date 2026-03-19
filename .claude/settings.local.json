@@ -24,7 +24,16 @@
       "Bash(npx expo:*)",
       "Bash(npm install:*)",
       "Bash(python -c \"import subprocess; r = subprocess.run\\([''git'',''push'',''-u'',''origin'',''main''], capture_output=True, text=True\\); print\\(r.stdout\\); print\\(r.stderr\\)\")",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(curl -s http://localhost:8081/status)",
+      "Bash(npx eas:*)",
+      "Bash(eas --version)",
+      "Bash(eas whoami:*)",
+      "Bash(eas build:configure --platform android)",
+      "Bash(eas init:*)",
+      "Bash(eas build:*)",
+      "Bash(eas build:view d384b71d-0459-4228-a8ef-44b5663a548b)",
+      "Bash(pip install:*)"
     ]
   }
 }
