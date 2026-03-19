@@ -20,7 +20,9 @@
       "Bash(cmd /c node -e \"console.log\\(process.execPath\\)\")",
       "Bash(python -c \"import subprocess; r = subprocess.run\\([''cmd'', ''/c'', ''where node''], capture_output=True, text=True\\); print\\(r.stdout\\); print\\(r.stderr\\)\")",
       "Bash(python -c \"import subprocess; r = subprocess.run\\([''cmd'', ''/c'', ''node -e \"\"console.log\\(process.execPath\\)\"\"''], capture_output=True, text=True\\); print\\(r.stdout\\)\")",
-      "Bash(python -c \"import subprocess; r = subprocess.run\\([''cmd'',''/c'',''git config --global user.name && git config --global user.email''], capture_output=True, text=True\\); print\\(r.stdout\\); print\\(r.stderr\\)\")"
+      "Bash(python -c \"import subprocess; r = subprocess.run\\([''cmd'',''/c'',''git config --global user.name && git config --global user.email''], capture_output=True, text=True\\); print\\(r.stdout\\); print\\(r.stderr\\)\")",
+      "Bash(npx expo:*)",
+      "Bash(npm install:*)"
     ]
   }
 }
