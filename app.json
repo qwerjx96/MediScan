@@ -22,7 +22,9 @@
       },
       "package": "com.mediscan.app",
       "permissions": [
-        "CAMERA"
+        "CAMERA",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
       ]
     },
     "web": {
@@ -45,6 +47,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "02f11b4e-2b00-47c8-858d-ee4ea1e9fd39"
+      }
+    },
+    "owner": "qwerjx96"
   }
 }
