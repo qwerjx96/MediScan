@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Expo Dev Server (Metro)",
+      "runtimeExecutable": "C:\\Windows\\System32\\cmd.exe",
+      "runtimeArgs": ["/c", "npx", "expo", "start", "--dev-client", "--port", "8081"],
+      "port": 8081
+    },
+    {
+      "name": "Expo Dev Server (iOS Simulator)",
+      "runtimeExecutable": "C:\\Windows\\System32\\cmd.exe",
+      "runtimeArgs": ["/c", "npx", "expo", "start", "--dev-client", "--ios", "--port", "8081"],
+      "port": 8081
+    },
+    {
+      "name": "Expo Dev Server (Android Emulator)",
+      "runtimeExecutable": "C:\\Windows\\System32\\cmd.exe",
+      "runtimeArgs": ["/c", "npx", "expo", "start", "--dev-client", "--android", "--port", "8081"],
+      "port": 8081
+    }
+  ]
+}

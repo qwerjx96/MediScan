@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc --track-changes=all \"C:\\\\Users\\\\jinxuan_innov8tif\\\\Desktop\\\\MediScan\\\\MediScan_Product_Spec.docx\" -o \"C:\\\\Users\\\\jinxuan_innov8tif\\\\Desktop\\\\MediScan\\\\spec_output.md\")",
+      "Bash(python -c \":*)",
+      "Bash(pandoc \"C:\\\\Users\\\\jinxuan_innov8tif\\\\Desktop\\\\MediScan\\\\MediScan_Product_Spec.docx\" -o /tmp/mediscan_content.md)",
+      "Read(//tmp/**)",
+      "Bash(python \"C:\\\\Users\\\\jinxuan_innov8tif\\\\.claude\\\\plugins\\\\cache\\\\claude-plugins-official\\\\superpowers\\\\5.0.2\\\\skills\\\\docx\\\\scripts\\\\office\\\\unpack.py\" \"C:\\\\Users\\\\jinxuan_innov8tif\\\\Desktop\\\\MediScan\\\\MediScan_Product_Spec.docx\" \"/tmp/mediscan_unpacked/\")",
+      "Bash(bash \"C:\\\\Users\\\\jinxuan_innov8tif\\\\.claude\\\\plugins\\\\cache\\\\claude-plugins-official\\\\superpowers\\\\5.0.2\\\\skills\\\\brainstorming\\\\scripts\\\\start-server.sh\" --project-dir \"C:\\\\Users\\\\jinxuan_innov8tif\\\\Desktop\\\\MediScan\")",
+      "Bash(node -e \":*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(where node:*)",
+      "Bash(where npm:*)",
+      "Bash(where npx:*)",
+      "Bash(where expo:*)",
+      "Bash(node -e \"require\\(''child_process''\\).execSync\\(''npx --version'', {stdio:''inherit''}\\)\")",
+      "Bash(cmd /c \"where npx\")",
+      "Bash(cmd /c \"where node\")",
+      "Bash(cmd /c \"node -e \"\"console.log\\(process.execPath\\)\"\"\")",
+      "Bash(cmd /c node -e \"console.log\\(process.execPath\\)\")",
+      "Bash(python -c \"import subprocess; r = subprocess.run\\([''cmd'', ''/c'', ''where node''], capture_output=True, text=True\\); print\\(r.stdout\\); print\\(r.stderr\\)\")",
+      "Bash(python -c \"import subprocess; r = subprocess.run\\([''cmd'', ''/c'', ''node -e \"\"console.log\\(process.execPath\\)\"\"''], capture_output=True, text=True\\); print\\(r.stdout\\)\")",
+      "Bash(python -c \"import subprocess; r = subprocess.run\\([''cmd'',''/c'',''git config --global user.name && git config --global user.email''], capture_output=True, text=True\\); print\\(r.stdout\\); print\\(r.stderr\\)\")"
+    ]
+  }
+}
