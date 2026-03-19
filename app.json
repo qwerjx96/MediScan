@@ -12,7 +12,7 @@
     },
     "scheme": "mediscan",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.mediscan.app",
