@@ -34,7 +34,12 @@
       "Bash(eas build:*)",
       "Bash(eas build:view d384b71d-0459-4228-a8ef-44b5663a548b)",
       "Bash(pip install:*)",
-      "Bash(node -e \"const pkg = require\\(''./node_modules/expo-router/package.json''\\); console.log\\(JSON.stringify\\(pkg.peerDependencies, null, 2\\)\\)\")"
+      "Bash(node -e \"const pkg = require\\(''./node_modules/expo-router/package.json''\\); console.log\\(JSON.stringify\\(pkg.peerDependencies, null, 2\\)\\)\")",
+      "Bash(eas build:view 133ea3aa-dd8d-403d-9d59-7f8ddf7632b6 --json)",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\(''''error'''',''''''''\\) or d.get\\(''''buildPhaseErrors'''',''''''''\\)\\)\")",
+      "WebFetch(domain:expo.dev)",
+      "Bash(eas build:view 06cd5a54-67c8-4106-9f8f-f09d705c4748)",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(list\\(d.keys\\(\\)\\)[:5]\\)\")"
     ]
   }
 }
